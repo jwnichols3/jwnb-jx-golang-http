@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 100.66.9.105:5000/jwnichols3/jwnb-jx-golang-http
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: jwnb-jx-golang-http
